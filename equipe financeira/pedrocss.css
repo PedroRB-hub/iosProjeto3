@@ -1,0 +1,95 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    max-width: 1600px;
+    margin: 0px auto;
+    background: linear-gradient(170deg, #BAD7E9,#0086D1);
+    color: #242425;
+    font-family: inter, sans-serif;
+  }
+  header {
+    height: 75px;
+    background: linear-gradient( 170deg, #f4718c, #eb455e);
+  }
+  h1 {
+    font-family: playball,cursive;
+    text-align: center;
+    padding-top: 15px; 
+  }
+  h2 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.9rem;
+    margin-top: 5px;
+
+  }
+  .equipe {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+  }
+  .card {
+    width: 420px;
+    min-height: 600px;
+    margin: 0px auto;
+    background-color: #E3EFF6;
+    background: linear-gradient(to top, #E3EFF6 00%, #BAD7E9 45%);
+    border-radius: 3px;
+  }
+  .card h2, p{
+    padding: 10px;
+  }
+  .card h2 {
+    font-weight: 100;
+  }
+  .card p {
+    font-size: 1.1rem;
+    line-height: 24px;
+  }
+  img {
+    width: 420px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 3px 3px 0px 0px;
+  }
+  /* Galeria */
+  .galeria {
+    margin: 2rem;
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+  }
+  .galeria > div {
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 3px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    transition: all 0.5s cubic-bezier(1, 1, 1, 1);
+  }
+  .galeria > div:hover {
+    flex: 5;
+  }
+  .container-back {
+    text-align: center;
+  }
+  
+  a.back {
+    text-align: center;
+    color: #242424;
+    background-color:#f4f4f4;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    padding: 1.5em 2.5em;
+    border-radius: 25px;
+  }
+  
+  a.back:hover {
+    padding: 1.5em 5.5em;
+  
+  }
+  
